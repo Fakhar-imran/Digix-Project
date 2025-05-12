@@ -237,10 +237,10 @@ th{
 
  @media screen and (max-width: 800px){
     th{
-    font-size: 0.6rem;
+    font-size: 0.7rem;
 }
  tr{
-    font-size: 0.5rem;
+    font-size: 0.7rem;
  }
  }
  @media screen and (max-width: 576px){
@@ -248,7 +248,7 @@ th{
     font-size: 0.4rem;
 }
  tr{
-    font-size: 0.2rem;
+    font-size: 0.5rem;
  }
  }
 
