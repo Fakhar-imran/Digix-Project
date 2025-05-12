@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en" class="fee-page">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- font link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+
+    <!-- Bootstrap cdn link  -->
+     <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css">
+
+     <!-- custom css link  -->
+      <link rel="stylesheet" href="/style.css">
+
+      <!--logo icon link  -->
+      <link rel="icon" href="https://tse1.mm.bing.net/th?id=OIP.3rFbDUrA9fKDZc_A_POhEgHaHa&pid=Api&P=0&h=220">
+
+      <!-- font family link  -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Fleur+De+Leah&family=Ojuju:wght@200..800&family=Parisienne&family=STIX+Two+Text:ital,wght@0,400..700;1,400..700&family=Style+Script&family=Tangerine:wght@400;700&family=Yuji+Mai&display=swap" rel="stylesheet">
+
+    <title>Digix - Admission</title>
+</head>
+<body>
+    <!-- NAVBAR SECTION  -->
+     <nav class="position-fixed top-0">
+      <div class="container-fluid d-flex justify-content-center align-items-center mt-1">
+
+                <div class="row me-md-auto d-flex justify-md-content-between justify-content-evenly align-items-center cstm-nav-row">
+                    
+                    <div class="col-md-3 col-sm-12 d-flex justify-content-center align-items-center">
+                <h1 class="logo-name">Digix</h1>
+              </div>
+
+
+              <div class="col-md-7 col-sm-12 d-flex justify-content-center align-items-center ">
+                <ul class="nav flex-nowrap">
+                    <li class="nav-item">
+                      <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link px-md-4 px-0" href="/about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="/courses.html">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link px-md-4 px-0" href="fee_page.html">Fee</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="contact_page.html">Contact</a>
+                    </li>
+                </ul>
+              </div>
+                
+              <div class="col-lg-2 d-lg-flex d-none justify-content-lg-center">
+                <a href="admission_page.html" class="btn allbtns">Enroll Now</a>
+              </div>
+      </div>
+    </div>
+  </nav>
+  <!-- END OF NAVBAR SECTION  -->
+
+  <!-- HERO SECTION  -->
+    <section>
+
+      <div class="d-flex justify-content-evenly align-items-center vh-100 admission-hero-sec-cstm-container">
+
+        <div class="container col-10 d-flex flex-column justify-content-center align-items-center">
+        <h1 class="welcome text-center text-light mb-0">Contact Digix</h1>
+        <p class="below-welcome text-center text-light mb-2">Lets know how to contact us</p>
+        <a href="/admission_page.html" class="btn btn-lg my-4 btns">Enroll Now</a>
+      </div>
+      </div>
+    </section>
+    <!-- END OF HERO SECTION  -->
+
+    <!-- ADMISSION FORM SECTION  -->
+
+    <section>
+        <div class="container-fluid mt-5 mb-3">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="text-center text-primary">Admission Form</h1>
+                </div>
+            </div>
+
+            <div class="container mb-5">
+                        <div class="card shadow-lg">
+                          <div class="row">
+                            <div class="col-lg-4 col-md-6 col-12 d-flex justify-content-evenly align-items-evenly">
+                              <div class="card-body d-flex flex-column justify-content-lg-evenly align-items-lg-evenly">
+
+                                    <div class="form-name-container">
+                                    <p class="mb-0 pb-0 text-primary input-labels">Name:</p>
+<input type="name" name="name" class="form-control" id="name" required>
+</div>
+    <div class="form-phone-container">
+                                    <p class="mb-0 pb-0 text-primary input-labels">Phone:</p>
+<input type="number" name="phone" class="form-control" id="phone"">
+</div>
+<div class="form-email-container">
+<p class="mb-0 pb-0 text-primary input-labels">Email:</p>
+<input type="email" name="email" class="form-control" id="email">
+</div>
+
+<div class="form-cnic-container">
+<p class="mb-0 pb-0 text-primary input-labels">CNIC:</p>
+<input type="number" name="cnic" class="form-control" id="cnic" required>
+</div>
+
+<div class="form-gender-container">
+    <fieldset>
+        <legend class="input-labels text-primary mb-0 pb-0">Gender:</legend>
+        <div class="d-flex justify-content-md-around justify-content-start flex-nowrap">
+        <span class="me-3">Male <input type="radio" name="gender" id="male" required></span> <span class="me-3">Female <input type="radio" name="gender" id="female" required></span>
+        </div>
+    </fieldset>
+</div>
+
+<div class="form-qualification-container">
+    <p class="mb-0 pb-0 text-primary input-labels">Qualification:</p>
+    <select class="form-select" aria-label="Default select" id="Qualification">
+  <option class="text-center text-muted">--Select your Qualification--</option>
+  <option value="Matric" class="text-center">Matric</option>
+  <option value="Intermediate" class="text-center">Intermediate</option>
+  <option value="Bachelors" class="text-center">Bachelors</option>
+  <option value="Masters" class="text-center">Masters</option>
+  <option value="PhD" class="text-center">PhD</option>
+</select>
+</div>
+
+<div class="form-courses-container">
+    <p class="mb-0 pb-0 text-primary input-labels">Courses:</p>
+    <select class="form-select" aria-label="Default select" id="courses">
+  <option class="text-center text-muted">--Select your Course--</option>
+  <option value="Web Development" class="text-center">Web Development</option>
+  <option value="Digital Marketing" class="text-center">Digital Marketing</option>
+  <option value="Graphic Designing" class="text-center">Graphic Designing</option>
+  <option value="Artificial Intelligence" class="text-center">Artificial Intelligence</option>
+  <option value="English Spoken" class="text-center">English Spoken</option>
+  <option value="Shopify" class="text-center">Shopify</option>
+  <option value="Amazon" class="text-center">Amazon</option>
+</select>
+</div>
+<div class="form-btn d-grid">
+    <input type="submit" value="Submit" class="btn allbtns btn-primary">
+</div>
+                                </div>
+                                </div>
+                                
+                            <div class="col-lg-8 col-md-6 d-none d-md-flex flex-fill justify-content-end ms-auto">
+                                <div class="admission-form-img">
+                                    <img class="img-fluid h-100" src="https://images.unsplash.com/photo-1658235081562-a7f50e7e05b6?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="image">
+                                </div>
+                            
+                            </div>
+                   </div>
+            </div>
+            </div>
+        </div>
+    </section>
+    <!-- END OF ADMISSION FOEM SECTION  -->
+
+     <!-- FOOTER  -->
+       <footer>
+        <div class="container-fluid d-flex align-items-end footer-cstm-parent-container">
+          <div class="container footer-cstm-container">
+          <div class="row d-flex justify-content-md-around justify-content-between">
+
+
+            <div class="col-md-4 col-6 d-flex flex-column footer-text footer-cstm-columns">
+              <div class="logo mb-3">
+              <h1 class="logo-name">Digix</h1>
+            </div>
+              <p>5th floor,700/D kings road,green lane New York-1782</p>
+              <p>+10 367 826 2567</p>
+              <p>contact@digix.com</p>
+
+              <div class="sm-icons">
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-twitter mx-1"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-pinterest mx-1"></i>
+              <i class="fa-brands fa-youtube"></i>
+            </div>
+          </div>
+
+
+            <div class="col-md-4 col-4 d-flex align-items-md-start justify-content-end flex-column footer-text footer-cstm-columns">
+              <h4>Pages</h4>
+              <p>Home</p>
+              <p>About</p>
+              <p>Fee</p>
+              <p>Courses</p>
+              <p>Contact</p>
+            </div>
+
+
+            <div class="col-md-4 d-md-flex footer-cstm-columns justify-content-end d-none flex-column footer-text">
+              <h4>Popular Courses</h4>
+              <p>Web Development</p>
+              <p>Digital Marketing</p>
+              <p>Graphic Designing</p>
+              <p>Artificial Intelligence</p>
+              <p>English Spoken</p>
+            </div>
+            <hr class= "mt-4 mb-0 footer-text">
+            <p class="text-center my-1 footer-text">Copyright © 2023, all right reserved | This template is made by Fakhar Imran</p>
+
+          </div>
+        </div>
+      </div>
+       </footer>
+     </body>
+     </html>

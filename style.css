@@ -1,0 +1,304 @@
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+nav{
+    width: 100%;
+    background-color:#EAF6FA ;
+    z-index: 1000;
+}
+
+.logo-name{
+    font-family: Parisienne;
+    font-size: 3.1rem;
+}
+
+.cstm-nav-row{
+    width: 95%;
+}
+
+.nav-link{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.2rem;
+    color: #262525;
+    font-size: 17px;
+    font-weight: 600;
+}
+.nav-link:hover{
+    color: #1eaaf1 !important;
+    transform: scale(1.02);
+}
+
+.allbtns{
+    background-color: #1eaaf1 !important;
+    border: 1px solid #1eaaf1;
+    color: #fff !important;
+}
+
+.allbtns:hover{
+    background-color: white !important;
+    border: 1px solid #1eaaf1;
+    color: #1eaaf1 !important;
+}
+/* END OF CSTM NAVBAR STYLING  */
+
+/* HERO SECTION STYLING  */
+
+.hero-sec-cstm-container{
+    background: linear-gradient(rgba(0, 0, 0, .151), rgba(0, 0, 0, .727))
+    ,url(https://media.istockphoto.com/id/1276383007/photo/multiracial-young-people-enjoying-group-study-at-table.webp?a=1&b=1&s=612x612&w=0&k=20&c=MdjqHF_qsQoeEZhaA7trJYp-rt0PqfZPsFHvgEyo-yQ=);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 70px;
+}
+.welcome{
+    font-family: Parisienne;
+    font-size: 4rem;
+}
+
+.below-welcome{
+    font-size: 4rem;
+    line-height: 1.2;
+}
+
+.btns{
+    background-color: #1eaaf1 !important;
+    border: 1px solid #1eaaf1;
+    color: #fff !important;
+}
+.btns:hover{
+    background-color: transparent !important;
+    border: 1px solid #1eaaf1;
+    color: #fff !important;
+}
+
+@media screen and (max-width: 768px){
+    .welcome{
+        font-size: 3.5rem;
+    }
+    .below-welcome{
+        font-size: 3.5rem;
+    }
+}
+@media screen and (max-width: 576px){
+    .welcome{
+        font-size: 2.8rem;
+    }
+    .below-welcome{
+        font-size: 2.8rem;
+    }
+}
+/* END OF HERO SECTION STYLING  */
+
+/* CARDS SEC STYLING  */
+
+.icons{
+    background-color: white;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+/* END OF CARDS SECTION STYLING  */
+
+.motive-bg-img{
+    background-image:linear-gradient(rgba(0, 0, 0, .151), rgba(0, 0, 0, .727))
+    ,url(https://media.istockphoto.com/id/2140836981/photo/teenage-girls-using-typing-on-laptops.webp?a=1&b=1&s=612x612&w=0&k=20&c=r7g1Gb7Xq_4-RD6rMAp3lU2tTOD8vqXIkKMteOgdoO0=);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 55vh;
+}
+
+/* END OF MOTIVE SECTION STYLING  */
+
+/* FOOTER STYLING  */
+
+.footer-cstm-parent-container{
+    background-color: #212529;
+    height: 25rem;
+}
+.sm-icons{
+    font-size: 1.2rem;
+}
+.footer-text{
+    color: #adadaa;
+}
+.footer-cstm-columns{
+    line-height: 1.2;
+}
+
+/* ABOUT PAGE STYLING  */
+
+/* HERO SECTION IN ABOUT PAGE STYLING  */
+
+.about-hero-sec-cstm-container{
+    background: linear-gradient(rgba(0, 0, 0, .151), rgba(0, 0, 0, .727))
+    ,url(https://plus.unsplash.com/premium_photo-1682787494977-d013bb5a8773?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8c3R1ZGVudHMlMjBpbiUyMGNsYXNzJTIwcm9vbXxlbnwwfHwwfHx8MA%3D%3D);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 70px;
+}
+/* ABOUT SECTION IN ABOUT PAGE  */
+
+.about-cstm-card:hover{
+    transform: scale(1.01);
+    cursor: pointer;
+}
+.about-sec-img{
+    object-fit: cover;
+}
+.cards-text{
+    font-weight: 500;
+}
+.cards-sub-text{
+    font-size:1rem;
+}
+
+/* REVIEW SECTION STYLING  */
+.review-bg-img{
+    background-image:linear-gradient(rgba(0, 0, 0, .151), rgba(0, 0, 0, .727))
+    ,url(https://images.unsplash.com/photo-1654613698246-b6d44aef0fd5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHBhcmVudHMlMjB0ZWFjaGVyJTIwbWVldGluZ3N8ZW58MHx8MHx8fDA%3D);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 55vh;
+}
+
+/* END OF ABOUT PAGE STYLING  */
+
+/* COURSES PAGE STYLING  */
+
+.courses-hero-sec-cstm-container{
+    background: linear-gradient(rgba(0, 0, 0, .151), rgba(0, 0, 0, .727))
+    ,url(https://images.unsplash.com/photo-1733824204474-e1b329a33612?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHNvbWUlMjBJVCUyMHN0dWRlbnRzJTIwYXJlJTIwTEVBUk5JTkclMjB0b2dldGhlcnxlbnwwfHwwfHx8MA%3D%3D);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 70px;
+}
+
+.courses-card-imgs-container{
+    height: 15rem;
+}
+.courses-cards-imgs{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.cstm-courses-card-text{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.courses-cards:hover{
+    transform: scale(1.01);
+    cursor: pointer;
+}
+
+/* END OF COURSES PAGE STYLING  */
+
+/* FEE PAGE STYLING  */
+
+/* HERO SECTION IN FEE PAGE  */
+
+.fee-hero-sec-cstm-container{
+    background: linear-gradient(rgba(0, 0, 0, .151), rgba(0, 0, 0, .727))
+    ,url(https://plus.unsplash.com/premium_photo-1680807869624-07b389d623e8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHVuaXZlcnNpdHklMjBlbnZpcm9ubWVudHxlbnwwfHwwfHx8MA%3D%3D);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 70px;
+}
+
+th{
+    font-size: 1.1rem;
+}
+ tr{
+    font-size: 1rem;
+    text-align: left;
+    text-wrap: nowrap;
+ }
+
+ @media screen and (max-width: 800px){
+    th{
+    font-size: 0.6rem;
+}
+ tr{
+    font-size: 0.5rem;
+ }
+ }
+ @media screen and (max-width: 576px){
+        th{
+    font-size: 0.4rem;
+}
+ tr{
+    font-size: 0.2rem;
+ }
+ }
+
+ /* END OF FEE PAGE STYLING  */
+
+ /* CONTACT PAGE STYLING  */
+
+ .contact-hero-sec-cstm-container{
+        background: linear-gradient(rgba(0, 0, 0, .151), rgba(0, 0, 0, .727))
+    ,url(https://images.unsplash.com/photo-1567852701065-b2991a38e34c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHVuaXZlcnNpdHklMjBjb250YWN0c3xlbnwwfHwwfHx8MA%3D%3D);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 70px;
+ }
+
+ .contact-sec-columns p{
+    font-size: 1.25rem;
+    font-weight: 500;
+ }
+
+ /* END OF CONTACT PAGE STYLING  */
+
+ /* ADMISSION PAGE STYLING  */
+
+ .admission-hero-sec-cstm-container{
+            background: linear-gradient(rgba(0, 0, 0, .151), rgba(0, 0, 0, .727))
+    ,url(https://images.unsplash.com/photo-1627556704290-2b1f5853ff78?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8R1JBRFVBVEUlMjBTVFVERU5UU3xlbnwwfHwwfHx8MA%3D%3D);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 70px;
+ }
+.input-labels{
+    font-size: 2.2rem;
+}
+fieldset span{
+    font-size: 1.8rem;
+}
+.form-control{
+    background-color: #EAF6FA;
+}
+
+@media screen and (max-width: 1200px){
+    .input-labels{
+    font-size: 1.2rem;
+}
+fieldset span{
+    font-size: 1.2rem;
+}
+}
